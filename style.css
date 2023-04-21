@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(43,249,251,1) 100%);
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+input{
+    margin: 5px;
+    color: rgb(255, 197, 111);
+}
+button{
+    background-color: cadetblue;
+    margin-top: 5px;
+    color: blue;
+    border: 5px solid cyan;
+    padding: 5px;
+    border-radius: 8px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}

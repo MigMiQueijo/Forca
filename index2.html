@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forca</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h4 id="player1Name"></h4><label id="player1Score"></label>
+    <h4 id="player2Name"></h4><label id="player2Score"></label>
+    <div class="container">
+        <h1>Adivinhe a palavra!</h1>
+        <h3 id="playerQuestion"></h3>
+        <h3 id="answerPlayer"></h3>
+        <div id="output" class="qol-lg-c"></div>
+        <br><br>
+        <label>Envie sua palavra!
+            <br>
+            <b>Tem que ter mais de 5 letras, eim? </b>
+        </label>
+        <input type="text" id="palavra" class="form-control" placeholder="Paralelepípedozinhoninho">
+        <button onclick="enviar()">Enviar</button>
+    </div>
+    <footer>Desenvolvido pelo Miguel</footer>
+    <script src="main2.js"></script>
+</body>
+</html>
